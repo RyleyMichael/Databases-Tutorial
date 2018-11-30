@@ -68,7 +68,7 @@ In order to play around with the inner-join clause, we first need to create some
 **Step #2**  
 Open up the SQLite REPL and read in the data by running the following commands:
 
-    $ sqlite3 database_name.db 
+    $ sqlite3 tmp.db 
     SQLite version 3.19.3 2017-06-27 16:48:08
     Enter ".help" for usage hints.
     Connected to a transient in-memory database.
@@ -78,6 +78,7 @@ Open up the SQLite REPL and read in the data by running the following commands:
 If reading in data was successful, there should be no output. We can ensure the data was read in by running the following command:
 
     sqlite> .tables
+    
 Which should give us the following output:
 
     sqlite> .tables
@@ -89,8 +90,8 @@ Great! Now that we have some data to play around with, let's look at a simple in
 
 One possible solution looks like:
 
-    sqlite> select ID, name from Skier inner join HasPass on
-       ...> Resort_ID in (select ID from Resort where name = 'Bridger') 
+    sqlite> select ID, name from Skier 
+       ...> inner join HasPass on Resort_ID in (select ID from Resort where name = 'Bridger') 
        ...> and ID = Skier_ID;
        
 **Problem #1:** Modify the above solution to select the name and ID of all Skiers that have a pass to Big Sky.
@@ -121,10 +122,12 @@ The syntax for a where clause looks like:
 
 One possible solution looks like:
 
-    sqlite> select ID, name from Skier, HasPass where Resort_ID in (select ID from Resort where name = 'Bridger')
+    sqlite> select ID, name from Skier, HasPass 
+       ...> where Resort_ID in (select ID from Resort where name = 'Bridger')
        ...> and ID = Skier_ID;
        
-**Problem #2:** Modify the above solution to select the name and ID of all Skiers who have a pass to Big Sky. The output should look like the previous output from Part II.  
+**Problem #2:** Modify the above solution to select the name and ID of all Skiers who have a pass to Big Sky. The output should look like the previous output from Part II.
+
 You can view the solution [here](soln2.sql).
 
 ## PART III
