@@ -19,7 +19,7 @@ We prepared this tutorial for Computer Science students who are either currently
 ## PART 0
 Before we can start playing around with SQLite statements, we need to install the software onto our machine. SQLite3 is pre-installed on MacOS, but it does not take more than a few minutes to install if you are using another operating system.  
 
-**Step #1**. 
+**Step #1**  
 Please visit the [download page](https://www.sqlite.org/download.html).
 
 ***We have also provided more detailed instructions [here](setup.md).***
