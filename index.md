@@ -1,7 +1,7 @@
 # Inner-Join or Where? The Choice is Yours
 
 ## INTRODUCTION
-Welcome to the tutorial. In this lesson, we will provide a brief overview of the inner-join and where clauses in SQLite. We will demonstrate some simple problems where an INNER-JOIN can be rewritten with a where clause. Finally, we will provide you with additional exercises to practice selecting data from two or more tables using both methods.  
+Welcome to the tutorial. In this lesson, we will provide a brief overview of the inner-join and where clauses in SQLite. We will demonstrate some simple problems where an inner-join can be rewritten with a where clause. Finally, we will provide you with additional exercises to practice selecting data from two or more tables using both methods.  
 
 ***It is our goal that by the end of this tutorial, you will be able to make a more informed decision on your preferred method of joining tables.***
 
