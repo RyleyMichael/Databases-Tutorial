@@ -36,7 +36,8 @@ If there are no typos and SQLite is installed, the output should look something 
     sqlite> 
     
 If you are interested in saving the database for further manipulation, you run the same command but simply add a name for the database:
-***Note that the extension for a sqlite database file is .db***
+
+***the extension for a sqlite database file is .db***
 
     > sqlite3 database_name.db
     SQLite version 3.19.3 2017-06-27 16:48:08
