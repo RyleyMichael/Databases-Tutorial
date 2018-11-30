@@ -19,8 +19,9 @@ We prepared this tutorial for Computer Science students who are either currently
 ## PART 0
 Before we can start playing around with SQLite statements, we need to install the software onto our machine. SQLite3 is pre-installed on MacOS, but it does not take more than a few minutes to install if you are using another operating system.  
 
-**Step #1**  
-Please visit the [download page](https://www.sqlite.org/download.html).
+**Step #1** 
+
+- Please visit the [download page](https://www.sqlite.org/download.html).
 
 ***We have also provided more detailed instructions [here](setup.md).***
 
@@ -58,7 +59,9 @@ If we were interested in selecting the Skiers' names who had a pass to Bridger, 
 Let's look at an example to see how it works!
 
 **Step #1**  
-In order to play around with the inner-join clause, we first need to create some tables and insert values into those tables. We have provided a basic .sql file to represent our test database. You can view/download the data [here](data.sql).
+In order to play around with the inner-join clause, we first need to create some tables and insert values into those tables. We have provided a basic .sql file to represent our test database.
+
+- View/download the data [here](data.sql).
 
 ***The file needs to be in your current working directory for SQLite to work with it.***
 
