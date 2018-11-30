@@ -43,6 +43,7 @@ If you are interested in saving the database for further manipulation, you run t
     sqlite> 
 
 ***The extension for a sqlite database file is .db***
+
 ***Note how in both cases the terminal prompt changes to 'sqlite>'.***
 
 This indicates that we can now run SQLite commands. If you are having trouble with the command-line interface, you can view more detailed instructions [here](https://www.sqlite.org/cli.html).
