@@ -1,0 +1,19 @@
+http://www.sqlitetutorial.net/sqlite-where/
+General sqlite tutorial for where statements
+
+https://www.sqlite.org/cli.html
+sqlite and command-line
+
+https://www.tutorialspoint.com/sqlite/sqlite_where_clause.htm
+sqlite tutorial for where statements
+
+https://www.tutorialspoint.com/sqlite/sqlite_using_joins.htm
+sqlite tutorial for join statements
+
+http://www.sqlitetutorial.net/download-install-sqlite/ 
+Installing sqlite3 on windows
+Fundamentals of Database Systems
+textbook
+
+https://www.w3resource.com/sqlite/sqlite-inner-join.php 
+Picture source and more details on how inner-joins work
