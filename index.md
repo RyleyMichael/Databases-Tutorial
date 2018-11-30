@@ -131,7 +131,7 @@ One possible solution looks like:
 You can view the solution [here](soln2.sql).
 
 ## PART III
-As you can see, the syntax between inner-join/where is very similar for a simple problem like this. The main difference is that the where condition hides the intent of the join condition (by expressing the join in the where clause). In our opinion, especially for more difficult queries, the where clause is a more clear representation of what attributes are being compared from the given tables. Both the where clause and inner-join clause return the same result and have the same performance.
+As you can see, the syntax between inner-join and where is very similar for a simple problem like this. The main difference is that the where condition hides the intent of the join condition (by expressing the join in the where clause). In our opinion, especially for more difficult queries, the where clause is a more clear representation of what attributes are being compared from the given tables. Both the where clause and inner-join clause return the same result and have the same performance.
 
 Let's try another fairly basic problem where we can highlight the differences between using a where clause vs. an inner-join clause.
 
