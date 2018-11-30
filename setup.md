@@ -37,6 +37,7 @@ If there are no typos and SQLite is installed, the output should look something 
     
 If you are interested in saving the database for further manipulation, you run the same command but simply add a name for the database:
 
+
 ***The extension for a sqlite database file is .db***
 
     > sqlite3 database_name.db
